@@ -21,7 +21,6 @@
   "grug-far.nvim": { "branch": "main", "commit": "986fca5ffc354f48f2c329c8dff8a41632832600" },
   "haskell-snippets.nvim": { "branch": "master", "commit": "e430927cb222718e14ac32116011b5e3df39ab51" },
   "haskell-tools.nvim": { "branch": "master", "commit": "65d6993eba1a56bbd5211ef13a100d26ce3e644a" },
-  "hererocks": { "branch": "master", "commit": "8bd2fcfdd65cfa7535ce39ea372a63b0bdb8e528" },
   "inc-rename.nvim": { "branch": "main", "commit": "8ba77017ca468f3029bf88ef409c2d20476ea66b" },
   "indent-blankline.nvim": { "branch": "master", "commit": "db926997af951da38e5004ec7b9fbdc480b48f5d" },
   "kulala.nvim": { "branch": "main", "commit": "db0b3cc8b62b22bef3f19b087946f9fdf884a197" },
