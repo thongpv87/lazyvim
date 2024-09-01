@@ -3,4 +3,4 @@
 -- Add any additional keymaps here
 
 local map = vim.keymap.set
-map("n", "<leader>0", "<cmd>Neotree source=filesystem<cr>", { desc = "Focus Neotree", noremap = true, silent = true })
+local delmap = vim.keymap.del

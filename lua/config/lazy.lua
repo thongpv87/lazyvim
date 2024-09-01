@@ -50,4 +50,8 @@ require("lazy").setup({
       },
     },
   },
+  -- my cusomization
+  ui = {
+    border = "rounded",
+  },
 })
