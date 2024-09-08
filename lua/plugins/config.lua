@@ -1,5 +1,15 @@
 return {
   {
+    "folke/tokyonight.nvim",
+    opts = {
+      on_colors = function(colors)
+        colors.border = colors.blue1
+      end,
+
+      dim_inactive = true,
+    },
+  },
+  {
     "zbirenbaum/copilot.lua",
     opts = function(_, opts)
       table.insert(opts, 1, {
