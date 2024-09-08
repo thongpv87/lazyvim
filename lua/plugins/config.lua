@@ -3,7 +3,7 @@ return {
     "folke/tokyonight.nvim",
     opts = {
       on_colors = function(colors)
-        colors.border = colors.blue1
+        colors.border = colors.cyan
       end,
 
       dim_inactive = true,
