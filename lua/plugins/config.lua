@@ -27,4 +27,7 @@ return {
       })
     end,
   },
+  {
+    "direnv/direnv",
+  },
 }
