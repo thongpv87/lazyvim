@@ -9,16 +9,16 @@ return {
       dim_inactive = true,
     },
   },
-  {
-    "zbirenbaum/copilot.lua",
-    opts = function(_, opts)
-      table.insert(opts, 1, {
-        filetypes = {
-          nu = false,
-        },
-      })
-    end,
-  },
+  -- {
+  --   "zbirenbaum/copilot.lua",
+  --   opts = function(_, opts)
+  --     table.insert(opts, 1, {
+  --       filetypes = {
+  --         nu = false,
+  --       },
+  --     })
+  --   end,
+  -- },
   {
     "rcarriga/nvim-notify",
     opts = function(_, opts)
@@ -29,5 +29,17 @@ return {
   },
   {
     "direnv/direnv",
+  },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      indent = { enable = true, disable = { "python" } },
+    },
+  },
+
+  {
+    "mrcjkb/haskell-tools.nvim",
+    version = "^4", -- Recommended
+    lazy = false, -- This plugin is already lazy
   },
 }
