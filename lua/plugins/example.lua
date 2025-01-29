@@ -69,12 +69,15 @@ return {
     ---@class PluginLspOpts
     opts = {
       ---@type lspconfig.options
+      setup = {
+        -- Make sure lspconfig doesn't start hls, as it conflicts with haskell-tools
+        hls = function()
+          return true
+        end,
+      },
       servers = {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
-        hls = {
-          mason = false,
-        },
       },
     },
   },
